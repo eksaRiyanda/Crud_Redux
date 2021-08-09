@@ -1,0 +1,20 @@
+.navv {
+    list-style-type: none;
+    background-color: chocolate;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.link:hover {
+    border: 1px solid white;
+    transition: .5s;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    margin-left: 100px;
+}
